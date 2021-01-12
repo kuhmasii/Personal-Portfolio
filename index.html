@@ -52,16 +52,16 @@
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="smooth-scroll nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="smooth-scroll nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Features</a>
+              <a class="smooth-scroll nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Latest Projects</a>
+              <a class="smooth-scroll nav-link" href="#projects">Latest Projects</a>
             </li>
           </ul>
 
@@ -91,11 +91,14 @@
       <div class="mask" style="background-color:rgba(14, 12, 124, 0.191);">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
-            <h1 class="animated fadeInUpBig delay-5s my-5">
+            <h1 class="wow bounceInUp my-5" data-wow-delay="0.5s" data-wow-duration='4s' data-wow-iteration='5'>
               Isaiah Olaoye Oluwamayomikun
             </h1>
-            <h4 class="mb-3 animated fadeInLeftBig delay-3s">Backend <span class="text-info">Developer</span></h4>
-            <a class="btn btn-lg btn-info m-1" href="#about" role="button">My Skills</a>
+            <h4 class="wow  bounceInLeft mb-3" data-wow-delay="1s" data-wow-duration='3s' data-wow-iteration='5'>Backend
+              <span class="text-info">Developer</span>
+            </h4>
+            <a class="smooth-scroll btn btn-lg btn-info m-1" href="#about" role="button">My
+              Skills</a>
             <a class="btn btn-lg btn-white text-info m-1 animated rubberBand infinite" href="#!" role="button">My
               Projects</a>
           </div>
@@ -112,7 +115,7 @@
         <h5><strong>Features</strong></h5>
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <i class="fas fa-tachometer-alt fa-4x text-info"></i>
+            <i class="fas fa-tachometer-alt fa-4x text-info wow tada" data-wow-delay="0.3s" data-wow-iteration='5'></i>
             <h5 class="my-4">Fast</h5>
             <p class="mb-md-3">
               With the help of django's framework,
@@ -121,7 +124,7 @@
 
           </div>
           <div class="col-lg-6 col-md-6">
-            <i class="fas fa-rocket fa-4x text-info"></i>
+            <i class="fas fa-rocket fa-4x text-info wow zoomInUp" data-wow-delay="0.3s" data-wow-duration='5s'></i>
             <h5 class="my-4">Dynamic</h5>
             <p class="mb-md-3">
               Website dosen't have to be boring, will give it a life.
@@ -139,7 +142,7 @@
         <div class="row">
           <div class="col-md-6">
             <h5 class="my-3">
-              <strong>Programming languages:</strong>
+              <strong>Programming language:</strong>
             </h5>
             <div class="row">
               <div class="col-md-3 mb-3">
@@ -161,7 +164,7 @@
               </div>
             </div>
             <h5 class="my-3">
-              <strong>Framework:</strong>
+              <strong>Frameworks:</strong>
             </h5>
             <div class="row">
               <div class="col-md-6 mb-3 ">
@@ -169,7 +172,7 @@
                 <p>Django</p>
               </div>
               <div class="col-md-6 mb-3 ">
-                <i class="fas fa-code fa-3x m-2 text-white"></i>
+                <i class="fab fa-bootstrap fa-3x m-2 text-white"></i>
                 <p>Bootstrap</p>
               </div>
             </div>
@@ -188,8 +191,8 @@
             </div>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="image/isaiah.jpg" alt="Isaiah Olaoye"
-              class="rounded-circle shadow-2-strong mb-4 animated flip slower">
+            <img src="image/isaiah.jpg" alt="Isaiah Olaoye" class="rounded-circle shadow-2-strong mb-4 wow rollIn"
+              data-wow-delay="0.5s" data-wow-duration='4s' data-wow-iteration='2'>
             <p><strong>Who is Isaiah Olaoye?</strong></p>
             <p class="text-white">
               I'm a Backend Developer mainly focused using Django framework,
@@ -224,7 +227,7 @@
         <div class="row">
 
           <!--Grid column-->
-          <div class="col-md-12 mb-4 wow fadeInUp">
+          <div class="col-md-12 mb-4 wow fadeInUpBig" data-wow-delay="0.3s" data-wow-duration='3s'>
             <div class="card card-image"
               style="background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg);">
               <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
@@ -247,7 +250,7 @@
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 wow fadeInRightBig" data-wow-delay="0.4s" data-wow-duration='5s'>
             <div class="card card-image"
               style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20%2873%29.jpg);">
               <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
@@ -271,7 +274,7 @@
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-4 wow fadeInLeftBig" data-wow-delay="0.5s" data-wow-duration='5s'>
             <div class="card card-image"
               style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20%2847%29.jpg);">
               <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
@@ -352,7 +355,11 @@
   <!-- MDB -->
 
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      new WOW().init();
+    });
+  </script>
 </body>
 
 </html>

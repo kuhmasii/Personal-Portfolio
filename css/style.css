@@ -38,23 +38,23 @@ p{
 
 /* color of the links before scroll */
 .navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon{
+.navbar-scroll .navbar-toggler-icon {
     color: #fff;
 }
 
 /* color of the links after scroll */
 .navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon{
+.navbar-scrolled .navbar-toggler-icon {
     color: #4f4f4f;
 }
 
 /* color of the navbar after scroll */
-.navbar-scrolled{
+.navbar-scrolled {
     background-color: #fff;
 }
 
 /* an optional heigth of the navbar after scroll */
-.navbar.navbar-scroll.navbar-scrolled{
+.navbar.navbar-scroll.navbar-scrolled {
     padding-top: 5px;
     padding-bottom: 5px;
 }
